@@ -6,3 +6,14 @@ authors:
     given-names: Tejashvi
 repository-code: "https://github.com/tejashvi-kumawat/bacm"
 license: MIT
+preferred-citation:
+  type: generic
+  title: "BACM: Transparent, Provenance-Aware Shared Memory for Parallel LLM Agents on Changing Codebases"
+  authors:
+    - family-names: Kumawat
+      given-names: Tejashvi
+  year: 2026
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.23215554"
+  url: "https://doi.org/10.5281/zenodo.23215554"

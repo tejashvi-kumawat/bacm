@@ -3,7 +3,7 @@
 Code, benchmark and analysis for the paper
 
 > **BACM: Transparent, Provenance-Aware Shared Memory for Parallel LLM Agents on Changing Codebases**
-> Tejashvi Kumawat.
+> Tejashvi Kumawat. Preprint: [doi:10.5281/zenodo.23215554](https://doi.org/10.5281/zenodo.23215554).
 
 BACM is a shared context manager for parallel LLM agents. It stores what agents read as knowledge objects with
 provenance (file, version, supporting span), dependency edges and typed derivation rules; when the repository
@@ -47,10 +47,13 @@ Result files of the runs are in `results_real/`.
 
 ```bibtex
 @misc{kumawat2026bacm,
-  title  = {{BACM}: Transparent, Provenance-Aware Shared Memory for Parallel {LLM} Agents on Changing Codebases},
-  author = {Kumawat, Tejashvi},
-  year   = {2026},
-  note   = {Code: https://github.com/tejashvi-kumawat/bacm}
+  title        = {{BACM}: Transparent, Provenance-Aware Shared Memory for Parallel {LLM} Agents on Changing Codebases},
+  author       = {Kumawat, Tejashvi},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.23215554},
+  url          = {https://doi.org/10.5281/zenodo.23215554},
+  howpublished = {Preprint. Code: \url{https://github.com/tejashvi-kumawat/bacm}}
 }
 ```
 
