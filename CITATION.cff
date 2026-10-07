@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark, please cite the paper."
+title: "BACM: Transparent, Provenance-Aware Shared Memory for Parallel LLM Agents on Changing Codebases"
+authors:
+  - family-names: Kumawat
+    given-names: Tejashvi
+repository-code: "https://github.com/tejashvi-kumawat/bacm"
+license: MIT

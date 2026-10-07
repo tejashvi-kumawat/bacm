@@ -1,0 +1,33 @@
+.venv/
+.env
+.llm_cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+.repos/
+# internal / not part of the release
+research.md
+results_ollama/
+.DS_Store
+
+# generated at run time (regenerate with the commands in the README)
+results/
+*.log
+failed.json
+summary.csv
+# result directories: only the evaluation reported in the paper is tracked
+results_real/*
+!results_real/final/
+!results_real/final_abl/
+!results_real/final_fix/
+!results_real/final_fix2/
+!results_real/final_gemini/
+!results_real/final_gemini_s201/
+!results_real/final_loweffort/
+!results_real/repobench_mini/
+# the paper (TeX source, figures, PDF) is not part of the code repository; only the analysis scripts are tracked
+paper/*
+!paper/make_assets.py
+!paper/replay_kinds.py
+!paper/PREREGISTRATION.md
+!paper/EXPERIMENTAL_PROTOCOL.md
